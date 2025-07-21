@@ -1,0 +1,19 @@
+{
+  "name": "@repo/rslib-config",
+  "version": "0.0.0",
+  "description": "rslib config package",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@rslib/core": "^0.10.6"
+  },
+  "exports": {
+    "./lib": "./lib.config.ts",
+    "./app": "./app.config.ts"
+  }
+}
